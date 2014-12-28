@@ -1,0 +1,4 @@
+//values are numbers (integer and floating point)
+var jobj2={"sunday":1, "tuesday":2.85, "wednesday":3};
+//values are of mixed types
+var jObj3={"culprit":true, "innocent":false, "notsure":null};

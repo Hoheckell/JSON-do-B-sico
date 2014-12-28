@@ -1,0 +1,7 @@
+var studentAll = {
+   "wclass": [
+    {"Estudante": {"id": "1"}, "nome": "Linda Jones","LegacySkill": "Access, VB 5.0"},
+    {"Estudante": {"id": "2"}, "nome": "Adam Davidson","LegacySkill": "Cobol, mainframe"},
+    {"Estudante": {"id": "3"}, "nome": "Charles Boyer","LegacySkill": "HTML, XML"}
+    ]
+};

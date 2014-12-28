@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+        JSON6
+        </title>
+<!--        <script type="text/javascript" src="json6.json"></script>-->
+        <script>
+            var studentAll = {
+   "wclass": [
+    {"Estudante": {"id": "1"}, "nome": "Linda Jones","habilidade": "Access, VB 5.0"},
+    {"Estudante": {"id": "2"}, "nome": "Adam Davidson","habilidade": "Cobol, mainframe"},
+    {"Estudante": {"id": "3"}, "nome": "Charles Boyer","habilidade": "HTML, XML"}
+    ]
+};
+        </script>
+    </head>
+    <body>
+        <script type="text/javascript">            
+          document.write ("<b> Id da 3ª estudante: </ b>" + studentAll.wclass [2].Estudante.id);
+            document.write ("<br/>");
+            document.write ("<b> nome do segundo aluno: </ b>" + studentAll.wclass [1].nome);
+            document.write ("<br/>");
+            document.write ("<b> habilidade do primeiro aluno: </ b>" + studentAll.wclass[0].habilidade);
+        </script>
+    
+    </body>
+</html>

@@ -1,0 +1,10 @@
+//Array de diferentes tipos
+            myJA2=["red", 1, null, true];
+            
+
+            //Array encadeado
+            myJA3=["red",1,["a", "b", "c"], false];
+          
+
+            //Objeto no array
+            myJA4=["red", {"Yes":"Yes, you do", "No":"No, you do not"}, 2];

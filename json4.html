@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>
+        JSON4
+        </title>
+<!--        <script type="text/javascript" src="json4.json"></script>-->
+        <script>
+           //Array de diferentes tipos
+            myJA2=["red", 1, null, true];            
+
+            //Array encadeado
+            myJA3=["red",1,["a", "b", "c"], false];          
+
+            //Objeto no array
+            myJA4=["red", {"Yes":"Yes, you do", "No":"No, you do not"}, 2];	
+            
+        </script>
+    </head>
+    <body>
+        <script type="text/javascript">            
+            document.write("<b>myJA2:</b>  " + myJA2[2]);
+            document.write("<p></p>");
+            
+            document.write("<b>myJA3[2][1]:</b>  " + myJA3[2][1]);
+            document.write("<p></p>");
+            
+            document.write("<b>myJA4[1].Yes: </b>"+ myJA4[1].Yes);
+        </script>
+    
+    </body>
+</html>

@@ -1,0 +1,10 @@
+
+ var justStudents = {
+	"wclass": [
+		{"Estudante": {"id": "1"}},
+		{"Estudante": {"id": "2"}},
+		{"Estudante": {"id": "3"}}
+	]
+}
+
+
